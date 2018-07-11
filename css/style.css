@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
 
-/* Base Styles
-********************************************************************* */
+
 html {
 	font-size: 62.5%;
 }
@@ -11,6 +10,20 @@ body {
 	font-weight: 400;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #222;
+	
+	 margin:0;
+  width:100%;
+  height:100%;
+  background-color: #90ddc5;
+  overflow: hidden;
+}
+#bodymovin { 
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+  cursor: pointer;
+  
+
 }
 /* Grid
 ********************************************************************* */  
