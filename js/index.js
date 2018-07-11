@@ -29,4 +29,3 @@ function secondLoop() {
 container.addEventListener('click', function(event) {
      anim.addEventListener( 'loopComplete', transition );
 });
-
