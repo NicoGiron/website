@@ -13,14 +13,53 @@
 </head>
 
 <body>
+    <!-- <div class="social-container">
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i>Twitter</a>
+        
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i>Facebook</a>
+        
+        <a href="#" class="googleplus"><i class="fa fa-google-plus"></i>Google +</a>
+        
+        <a href="#" class="pinterest"><i class="fa fa-pinterest"></i>Pinterest</a>
+        
+        <a href="#" class="dribbble"><i class="fa fa-dribbble"></i>Dribbble</a>
+        
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i>Instagram</a>
+        </div> -->
 
   <!-- CREDITS: ALEX BRADT -->
 <div id="bodymovin"></div>
+ 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.13.0/bodymovin.js'></script>
 
   
 
     <script  src="js/index.js"></script>
+    <script>
+      $(".twitter").hover(function () {
+	$("#social-section").toggleClass("color-twitter")
+});
+
+$(".facebook").hover(function () {
+	$("#social-section").toggleClass("color-facebook")
+});
+
+$(".googleplus").hover(function () {
+	$("#social-section").toggleClass("color-googleplus")
+});
+
+$(".pinterest").hover(function () {
+	$("#social-section").toggleClass("color-pinterest")
+});
+
+$(".dribbble").hover(function () {
+	$("#social-section").toggleClass("color-dribbble")
+});
+
+$(".instagram").hover(function () {
+	$("#social-section").toggleClass("color-instagram")
+});
+    </script>
 
 
 
